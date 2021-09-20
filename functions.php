@@ -74,8 +74,7 @@ if ( ! function_exists( 'gridframe_setup' ) ) {
 		
 		// Thumbnail sizes
 		add_image_size( 'gridframe-small', 200, 200, true );
-		add_image_size( 'gridframe-medium', 520, 520, true );
-		add_image_size( 'gridframe-medium-h', 520 );
+		add_image_size( 'gridframe-medium', 400 );
 		add_image_size( 'gridframe-large', 940 );
 		
 		// Thumbnail sizes custom widgets
@@ -539,7 +538,6 @@ if ( ! function_exists( 'gridframe_body_class' ) ) {
 		if ( get_theme_mod( 'boxed','off' ) == 'on' ) { $classes[] = 'boxed'; }
 		if ( has_nav_menu( 'mobile' ) ) { $classes[] = 'mobile-menu'; }
 		if ( get_theme_mod( 'mobile-sidebar-hide','on' ) != 'on' ) { $classes[] = 'mobile-sidebar-hide'; }
-		if ( get_theme_mod('profile-image') || get_theme_mod('profile-name') || get_theme_mod('profile-description') ) { $classes[] = 'skew-active'; }
 		if (! ( is_user_logged_in() ) ) { $classes[] = 'logged-out'; }
 		return $classes;
 	}

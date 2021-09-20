@@ -1,5 +1,9 @@
 #wrapper { min-width: 320px; }
 
+@media only screen and (min-width: 1024px) and (max-width: 1024px) {
+	.type-portfolio { width: 300px; }
+}
+
 @media only screen and (max-width: 960px) {
 	#profile-name { font-size: 44px; }
 }
@@ -147,7 +151,8 @@
 	#profile-name,
 	#profile-description { padding-left: 20px; padding-right: 20px; }
 	
-	.type-portfolio { width: 100%; padding-left: 20px; padding-right: 20px; box-sizing: border-box; }
+	.magic-grid { margin-left: 20px; margin-right: 20px; }
+	.type-portfolio { width: 100%; }
 	.front-widgets { margin-left: 20px; margin-right: 20px;  }
 	
 	.content { padding: 0; }

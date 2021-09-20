@@ -64,7 +64,7 @@
 					
 					<?php if ( get_theme_mod( 'credit', 'on' ) == 'on' ): ?>
 					<div id="credit">
-						<p><?php esc_html_e('Powered by','gridframe'); ?> <a href="<?php esc_url( __( 'https://wordpress.org', 'gridframe' ) ); ?>" rel="nofollow">WordPress</a>. <?php esc_html_e('Theme by','gridframe'); ?> <a href="http://alx.media" rel="nofollow">Alx</a>.</p>
+						<p><?php esc_html_e('Powered by','gridframe'); ?> <a href="<?php esc_url( _e( 'https://wordpress.org', 'gridframe' ) ); ?>" rel="nofollow">WordPress</a>. <?php esc_html_e('Theme by','gridframe'); ?> <a href="http://alx.media" rel="nofollow">Alx</a>.</p>
 					</div><!--/#credit-->
 					<?php endif; ?>
 					

@@ -1368,10 +1368,10 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 .wp-pagenavi a:active,
 .wp-pagenavi span.current { color: #333; }
 
-.wp-pagenavi a { background: #eee; border-radius: 4px; color: #333; border: none; box-shadow: inset 0 1px 0 rgba(0,0,0,0.05); }
+.wp-pagenavi a { background: #e5e5e5; border-radius: 20px; color: #333; border: none; box-shadow: inset 0 1px 0 rgba(0,0,0,0.05); }
 .wp-pagenavi a:hover,
 .wp-pagenavi a:active,
-.wp-pagenavi span.current { background: #e5e5e5; border-radius: 4px; border: none; box-shadow: 0 1px 0 rgba(0,0,0,0.05); }
+.wp-pagenavi span.current { background: #fff; border-radius: 20px; border: none; box-shadow: 0 1px 0 rgba(0,0,0,0.05); }
 
 
 /* ------------------------------------------------------------------------- *

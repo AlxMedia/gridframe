@@ -72,13 +72,15 @@ Screenshot images
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://stocksnap.io
 
-Sidebar images
-1. https://stocksnap.io/photo/X - CC0 1.0 Universal (CC0 1.0)
+Header images
+1. https://stocksnap.io/photo/TNK87N7464 - CC0 1.0 Universal (CC0 1.0)
 
 Content images
-1. https://stocksnap.io/photo/X - CC0 1.0 Universal (CC0 1.0)
+1. https://stocksnap.io/photo/R7J4JSU0EE - CC0 1.0 Universal (CC0 1.0)
+2. https://stocksnap.io/photo/ETYYX6WJQI - CC0 1.0 Universal (CC0 1.0)
+3. https://stocksnap.io/photo/ZCIZ1AWXTC - CC0 1.0 Universal (CC0 1.0)
 
 == Changelog ==
 
-= 1.0.0 - 2021-09-10 =
+= 1.0.0 - 2021-09-21 =
 * Initial release
