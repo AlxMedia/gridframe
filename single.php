@@ -9,9 +9,17 @@
 			
 			<div class="post-wrapper group">
 				
-				<div class="entry-media">
-					<?php if( get_post_format() ) { get_template_part('inc/post-formats'); } ?>
-				</div>
+				<?php if (get_theme_mod('post-format','off') == 'on'): ?>
+					<div class="entry-media">
+						<?php if( get_post_format() ) { get_template_part('inc/post-formats'); } ?>
+					</div>
+				<?php else: ?>
+					<div class="entry-media">
+						<div class="image-container">
+							<?php if ( has_post_thumbnail() ) {	the_post_thumbnail('gridframe-large'); } ?>
+						</div>
+					</div>
+				<?php endif; ?>
 
 				<header class="entry-header group">
 					<h1 class="entry-title"><?php the_title(); ?></h1>

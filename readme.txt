@@ -82,5 +82,8 @@ Content images
 
 == Changelog ==
 
+= 1.0.1 - 2021-09-21 =
+* Added option to show post format instead of featured image
+
 = 1.0.0 - 2021-09-21 =
 * Initial release

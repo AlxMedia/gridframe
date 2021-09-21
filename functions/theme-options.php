@@ -167,6 +167,15 @@ Kirki::add_field( 'gridframe_theme', array(
 	'section'		=> 'blog',
 	'default'		=> 'on',
 ) );
+// Blog: Single - Post Format
+Kirki::add_field( 'gridframe_theme', array(
+	'type'			=> 'switch',
+	'settings'		=> 'post-format',
+	'label'			=> esc_html__( 'Single - Post Format', 'gridframe' ),
+	'description'	=> esc_html__( 'Shows post format content instead of featured image', 'gridframe' ),
+	'section'		=> 'blog',
+	'default'		=> 'off',
+) );
 // Blog: Single - Authorbox
 Kirki::add_field( 'gridframe_theme', array(
 	'type'			=> 'switch',
