@@ -596,7 +596,7 @@ box-shadow: inset 0 1px 1px rgba(0,0,0,0.4), 0 1px 0 rgba(255,255,255,0.03); }
 .page-title h3,
 .page-title h4 { font-size: 16px; text-transform: uppercase; line-height: 1.4em; font-weight: 400; border-left: 4px solid #333; padding-left: 30px; }
 .page-title span { color: rgba(0,0,0,0.4); }
-.page-title .notebox { font-size: 17px; line-height: 1.6em; font-weight: 300; color: rgba(0,0,0,0.4); position: relative; }
+.page-title .notebox { background: #fff; box-shadow: 0 0 2px rgba(0,0,0,0.1), 0 1px 0 rgba(0,0,0,0.04), 0 16px 16px rgba(0,0,0,0.02); padding: 20px; margin-top: 20px; font-size: 17px; line-height: 1.6em; font-weight: 300; color: rgba(0,0,0,0.4); position: relative; }
 
 /*  common : notebox
 /* ------------------------------------ */
