@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gridframe\n"
-"POT-Creation-Date: 2021-09-21 11:04+0200\n"
+"POT-Creation-Date: 2021-09-21 11:49+0200\n"
 "PO-Revision-Date: 2018-09-21 21:27+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -362,7 +362,7 @@ msgid "Profile Image"
 msgstr ""
 
 #: functions/theme-options.php:229
-msgid "Minimum width of 220px"
+msgid "Works best with square size"
 msgstr ""
 
 #: functions/theme-options.php:237

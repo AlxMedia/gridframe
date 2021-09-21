@@ -226,7 +226,7 @@ Kirki::add_field( 'gridframe_theme', array(
 	'type'			=> 'image',
 	'settings'		=> 'profile-image',
 	'label'			=> esc_html__( 'Profile Image', 'gridframe' ),
-	'description'	=> esc_html__( 'Minimum width of 220px', 'gridframe' ),
+	'description'	=> esc_html__( 'Works best with square size', 'gridframe' ),
 	'section'		=> 'header',
 	'default'		=> '',
 ) );
