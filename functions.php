@@ -74,7 +74,8 @@ if ( ! function_exists( 'gridframe_setup' ) ) {
 		
 		// Thumbnail sizes
 		add_image_size( 'gridframe-small', 200, 200, true );
-		add_image_size( 'gridframe-medium', 400 );
+		add_image_size( 'gridframe-medium', 400, 400, true );
+		add_image_size( 'gridframe-medium-h', 400 );
 		add_image_size( 'gridframe-large', 940 );
 		
 		// Thumbnail sizes custom widgets

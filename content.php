@@ -6,7 +6,7 @@
 		<div class="type-portfolio-thumb">
 			<a href="<?php the_permalink(); ?>">
 				<?php if ( has_post_thumbnail() ) : ?>
-					<?php the_post_thumbnail('gridframe-medium'); ?>
+					<?php the_post_thumbnail('gridframe-medium-h'); ?>
 				<?php else: ?>	
 					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/thumb-medium.png" alt="<?php the_title_attribute(); ?>" />
 				<?php endif; ?>

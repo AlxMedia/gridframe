@@ -859,6 +859,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 .type-portfolio-comments:hover { color: #333; }
 .type-portfolio-comments:hover span { color: #fff; }
 .type-portfolio:hover .type-portfolio-comments { opacity: 1; }
+.type-portfolio:hover .thumb-icon { background: #fff; color: #333; }
 
 .type-portfolio-content { background: #fff; padding-bottom: 16px; }
 .type-portfolio-title { margin-bottom: 4px; }
@@ -1059,10 +1060,10 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
 /* ------------------------------------ */
 .post-nav { background: #f5f5f5; border-radius: 10px; margin-bottom: 40px; }
 .post-nav li { width: 50%; display: inline; float: left; }
-.post-nav li a { position: relative; display: block; padding-top: 10px; padding-bottom: 10px; }
+.post-nav li a { position: relative; display: block; padding-top: 20px; padding-bottom: 20px; }
 .post-nav li i { color: #ccc; font-size: 18px; position: absolute; top: 50%; margin-top: -10px; }
 .post-nav li a strong { display: block; font-size: 12px; color: #aaa; letter-spacing: 0.5px; font-weight: normal; text-transform: uppercase; }
-.post-nav li a span { font-size: 15px; font-weight: 600; color: #333; display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+.post-nav li a span { font-size: 18px; font-weight: 600; color: #333; display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
 .post-nav li a:hover span { color: #000; }
 .post-nav li a:hover i { color: #000; }
 .post-nav li.previous { float: left; }
