@@ -532,7 +532,7 @@ Kirki::add_field( 'gridframe_theme', array(
 	'label'			=> esc_html__( 'Create Social Links', 'gridframe' ),
 	'description'	=> esc_html__( 'Create and organize your social links', 'gridframe' ),
 	'section'		=> 'social',
-	'tooltip'		=> esc_html__( 'Font Awesome names:', 'gridframe' ) . ' <a href="https://fontawesome.com/v5/search?s=brands" target="_blank"><strong>' . esc_html__( 'View All', 'gridframe' ) . ' </strong></a>',
+	'tooltip'		=> esc_html__( 'Font Awesome names:', 'gridframe' ) . ' <a href="https://fontawesome.com/search?o=r&m=free&f=brands" target="_blank"><strong>' . esc_html__( 'View All', 'gridframe' ) . ' </strong></a>',
 	'row_label'		=> array(
 		'type'	=> 'text',
 		'value'	=> esc_html__('social link', 'gridframe' ),
@@ -549,7 +549,7 @@ Kirki::add_field( 'gridframe_theme', array(
 		'social-icon'	=> array(
 			'type'			=> 'text',
 			'label'			=> esc_html__( 'Icon Name', 'gridframe' ),
-			'description'	=> esc_html__( 'Font Awesome icons. Ex: fa-facebook ', 'gridframe' ) . ' <a href="https://fontawesome.com/v5/search?s=brands" target="_blank"><strong>' . esc_html__( 'View All', 'gridframe' ) . ' </strong></a>',
+			'description'	=> esc_html__( 'Font Awesome icons. Ex: fa-facebook ', 'gridframe' ) . ' <a href="https://fontawesome.com/search?o=r&m=free&f=brands" target="_blank"><strong>' . esc_html__( 'View All', 'gridframe' ) . ' </strong></a>',
 			'default'		=> 'fa-',
 		),
 		'social-link'	=> array(
