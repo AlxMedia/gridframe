@@ -8,7 +8,7 @@ Tags: blog, photography, portfolio, one-column, two-columns, right-sidebar, left
 
 == Description ==
 
-Gridframe is a clean and minimal portfolio theme with plenty of options. It is flexible and optimized for all devices. You can pick different header color and choose website max-width with a few clicks. Demo: http://demo.alx.media/x/?theme=Gridframe
+Gridframe is a clean and minimal portfolio theme with plenty of options. It is flexible and optimized for all devices. You can pick different header color and choose website max-width with a few clicks. Demo: https://demo.agnarson.com/?theme=Gridframe
 
 == Installation ==
 
@@ -19,7 +19,7 @@ Gridframe is a clean and minimal portfolio theme with plenty of options. It is f
 
 == Documentation ==
 
-http://alx.media/documentation/
+https://agnarson.com/documentation/
 
 == Copyright ==
 
