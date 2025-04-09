@@ -730,3 +730,16 @@ function gridframe_skip_link_focus_fix() {
 	<?php
 }
 add_action( 'wp_print_footer_scripts', 'gridframe_skip_link_focus_fix' );
+
+
+/*  Kirki deprecated fix
+/* ------------------------------------ */
+function gridframe_kirki_config( $config ) {
+
+	if ( isset( $config['compiler'] ) ) {
+		unset( $config['compiler'] );
+	}
+
+	return $config;
+}
+add_filter( 'kirki/config', 'gridframe_kirki_config', 999 );
